@@ -9,11 +9,11 @@ import (
 type State int
 
 const (
-	pending State = iota
-	scheduled
-	running
-	completed
-	failed
+	Pending State = iota
+	Scheduled
+	Running
+	Completed
+	Failed
 )
 
 type Task struct {

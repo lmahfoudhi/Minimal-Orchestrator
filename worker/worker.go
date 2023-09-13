@@ -2,6 +2,7 @@ package worker
 
 import (
 	"fmt"
+	"github.com/golang-collections/collections/queue"
 	"github.com/google/uuid"
 	"github.com/lmahfoudhi/Minimal-Orchestrator/task"
 )
